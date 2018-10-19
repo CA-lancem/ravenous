@@ -1,18 +1,20 @@
 import React from 'react';
-import './Business.css';
+import './BusinessList.css';
 
 import Business from '../Business/Business';
 
 class BusinessList extends React.Component {
   render() {
-    <div className="BusinessList">
-      <Business />
-      <Business />
-      <Business />
-      <Business />
-      <Business />
-      <Business />
-    </div>
+    return (
+      <div className="BusinessList">
+        <Business />
+        <Business />
+        <Business />
+        <Business />
+        <Business />
+        <Business />
+      </div>
+    )
   }
 };
 
